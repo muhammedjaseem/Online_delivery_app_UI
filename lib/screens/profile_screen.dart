@@ -94,7 +94,7 @@ class ProfileScreen extends StatelessWidget {
                     title: CustomText(text: "Game Zone",),
                     trailing: Container(
                       height: 20,
-                      width: 75,
+                      width: 80,
                       decoration: BoxDecoration(borderRadius: BorderRadius.circular(5),color:const Color(
                           0xFFFF2D55) ),
                       child: const Center(child: Text("COMMING SOON",style:TextStyle(fontSize: 10,fontWeight: FontWeight.bold,color: Colors.white,))),)),

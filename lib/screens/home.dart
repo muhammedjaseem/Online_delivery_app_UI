@@ -115,7 +115,7 @@ class HomeScreen extends StatelessWidget {
               width: double.infinity,
               child: ClipRRect(
                 borderRadius: BorderRadius.circular(20),
-                  child: Image.network("https://image.shutterstock.com/image-photo/beef-stew-potatoes-carrots-herbs-600w-584260273.jpg",fit: BoxFit.fill,)),
+                  child: Image.asset("assets/images/img_2.png",fit: BoxFit.fill,)),
             ),
             Padding(
               padding: const EdgeInsets.only(top: 20,right: 20),
